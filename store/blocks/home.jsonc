@@ -1,7 +1,9 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "info-card#button",
+      "info-card#link"
     ]
   },
   "rich-text": { 
