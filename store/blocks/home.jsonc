@@ -4,7 +4,8 @@
       "rich-text",
       "info-card#button",
       "info-card#link",
-      "flex-layout.row"
+      "flex-layout.row",
+      "shelf"
     ]
   },
   "rich-text": {
