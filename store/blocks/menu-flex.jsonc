@@ -17,6 +17,7 @@
         "vtex.menu@2.x:menu#major"
         ]
       },
+
       "flex-layout.col#img": {
         "children": [
         "image#menu",
@@ -27,6 +28,7 @@
             "horizontalAlign": "right"
         }
       },
+
 
       "image#menu": {
         "props": {
