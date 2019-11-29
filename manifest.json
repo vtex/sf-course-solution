@@ -17,6 +17,7 @@
     "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
     "vtex.slider-layout": "0.x",
+    "vtex.tab-layout": "0.x",
     "vtex.carousel": "2.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
