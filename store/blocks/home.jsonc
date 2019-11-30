@@ -1,20 +1,37 @@
 {
     "store.home": { 
       "blocks": [
-        "info-card#link"
+        "info-card#button-right",
+        "info-card#button-left"
       ]
     },
 
-    "info-card#link": {
+    "info-card#button-right": {
       "props": {
-        "isFullModeStyle": true,
+        "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "https://images.unsplash.com/photo-1550223026-0d6fd780c560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80",
-        "headline": "Clearance Sale",
+        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+        "headline": "Vintage Pink",
+        "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
         "callToActionMode": "button",
-        "callToActionText": "Discover",
+        "callToActionText": "Explore",
         "callToActionUrl": "/sale/d",
-        "textAlignment": "center"
+        "textAlignment": "center",
+        "blockClass": "vintage"
+      }
+    },
+    "info-card#button-left": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+        "headline": "Shining chrome",
+        "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+        "callToActionMode": "link",
+        "callToActionText": "Go to Collection",
+        "callToActionUrl": "/sale/d",
+        "textAlignment": "center",
+        "blockClass": "metal"
       }
     }
   }
