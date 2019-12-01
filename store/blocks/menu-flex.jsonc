@@ -29,7 +29,6 @@
         }
       },
 
-
       "image#menu": {
         "props": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Green_square.svg/1024px-Green_square.svg.png",
