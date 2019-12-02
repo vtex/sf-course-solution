@@ -60,7 +60,7 @@
   "tab-list.item#home2": {
     "props": {
       "tabId": "home2",
-      "label": "Electronics"
+      "label": "Instagram"
     }
   },
   "tab-content#home": {
@@ -79,7 +79,7 @@
   },
   "tab-content.item#home2": {
     "children": [
-      "rich-text#home2"
+      "iframe"
     ],
     "props": {
       "tabId": "home2"
@@ -92,11 +92,11 @@
       "textAlignment": "CENTER"
     }
   },
-  "rich-text#home2": {
+  "iframe": {
     "props": {
-      "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
+      "width": 800,
+      "height": 1000
     }
   }
  }
