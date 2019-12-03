@@ -2,8 +2,8 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button",
-      "info-card#link",
+      "info-card#button-right",
+      "info-card#button-left",
       "flex-layout.row"
     ]
   },
@@ -13,26 +13,28 @@
       "textPosition":  "RIGHT"
     }
   },
-  "info-card#button": {
+  "info-card#button-right": {
     "props": {
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
       "callToActionMode": "button",
-      "callToActionText": "BUY",
+      "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
   },
-  "info-card#link": {
+  "info-card#button-left": {
     "props": {
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining chrome",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
       "callToActionMode": "link",
-      "callToActionText": "BUY",
+      "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
@@ -45,10 +47,10 @@
   },
   "info-card": {
     "props": {
-      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
       "isFullModeStyle": true,
-      "headline": "Black Friday",
-      "callToActionText": "Assine",
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
       "textPosition": "center"
 
     }
