@@ -48,18 +48,18 @@
     "children": [
       "tab-list.item#home1",
       "tab-list.item#home2"
-      ]
+    ]
   },
   "tab-list.item#home1": {
     "props": {
-      "tabId": "home1",
+      "tabId": "majorAppliances",
       "label": "Major Appliances",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#home2": {
     "props": {
-      "tabId": "home2",
+      "tabId": "electronics",
       "label": "Electronics"
     }
   },
@@ -74,7 +74,7 @@
       "rich-text#home1"
     ],
     "props": {
-      "tabId": "home1"
+      "tabId": "majorAppliances"
     }
   },
   "tab-content.item#home2": {
@@ -82,7 +82,7 @@
       "rich-text#home2"
     ],
     "props": {
-      "tabId": "home2"
+      "tabId": "electronics"
     }
   },
   "rich-text#home1": {
