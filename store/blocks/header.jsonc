@@ -40,7 +40,8 @@
     ],
     "props": {
       "inverted": true,
-       "sticky": true
+      "sticky": true,
+      "fullWidth": false
     }
   },
 
@@ -81,7 +82,8 @@
 
   "rich-text#header": {
     "props": { 
-      "text": "**Free Shipping on orders over $50**"
+      "text": "**Free Shipping on orders over $50**",
+      "textPosition": "CENTER"
     }
   }
 
