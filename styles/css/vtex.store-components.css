@@ -1,0 +1,24 @@
+.infoCardContainer {
+    height: 450px
+ }
+
+.infoCardHeadline {
+    color: black;
+    border: 2px solid gray;
+    font-size: 50px;
+    font-weight: 200;
+    background-color:#d7db8f;
+    padding: 30px;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+    color: white;
+    background-color: gray;
+    border: transparent;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+    color: gray;
+    background-color: white;
+    border: transparent;
+}
